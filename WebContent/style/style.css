@@ -1,0 +1,498 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body,
+html {
+	height:100%;
+	font-family:sans-serif:;
+	line-height:1.5;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+/*Menu do site*/
+
+.menu{
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+}
+
+.menu ul {
+	background-color: rgba(0,0,0,0.8);
+	height: 50%;
+	position: relative;
+}
+.menu ul li{
+
+	list-style: none;
+	display: inline;
+	padding:10px;
+}
+
+.menu ul li a{
+
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+	font-size: 17px;
+
+	float: right;
+}
+
+.iconLogo{
+	position: absolute;
+    left: 0;
+    top: -26px;
+    transform: scale(0.5);
+    width: 114px;
+}
+
+.tada:hover{
+  animation-duration: 1s;
+  animation-delay: 1s;
+  color: #ED145B;
+  animation-iteration-count: infinite;
+}
+
+/* Configura os textos */
+.titulo {
+	color: #000;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	top: 20%;
+
+	/*text-shadow: rgba(0,0,0,0.5) 4px 0px 20px;*/
+}
+
+.boxText{
+ background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid rgba(237, 20, 91, 0.75);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.titulo > h3{
+	margin: 0 auto;
+	width: 50%;
+}
+
+.buttonN{
+
+	font-size: 20px;
+	padding: 10px 60px;
+}
+
+.btnLogin{
+	color: #ED145B;
+	text-shadow: rgba(237, 20, 91, 0.75) 4px 0px 30px;
+	border: 1px solid #ED145B;
+	font-weight: 400;
+	background: #000;
+
+}
+.btnLogin:hover{
+	color: #ED145B;
+	transition: 0.5s;
+	text-decoration: none;
+	box-shadow: 0 0 20px #ed145b;
+	text-shadow: rgba(237, 20, 91, 0.75) 4px 0px 10px;
+}
+
+.btnPadrao{
+	border: 1px solid #000;
+	background: #ED145B;
+	color: #000;
+	text-shadow: rgba(0, 0, 0, 0.75) 4px 0px 30px;
+}
+
+.btnPadrao:hover{
+	background-color:  #ED145B;
+	color: #000;
+	transition: 0.5s;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 0.75) 4px 0px 10px;
+	box-shadow: 0 0 20px #000;
+}
+
+/*MODAAAAL*/
+.modal-content {
+    background-color: #000;
+    background-clip: padding-box;
+    border: 3px solid #ED145B;
+}
+
+.modal-title{
+	color: #fff;
+	position: relative;
+    left: 10%;
+}
+
+label{
+	color: #fff;
+}
+
+span{
+	color: #fff;
+}
+
+.submit{
+	float: right;
+}
+
+.arrowIcon{
+	width: 70px;
+	position: relative;
+	right: 10px;
+	top: 30px;
+	cursor: pointer;
+}
+
+.card-header{
+	    background-color: #000;
+    /* color: #ED145B; */
+    border: 1px solid #ED145B;
+    height: 88px;
+}
+
+.card-title , .card-text{
+	color:#909DA3;
+}
+
+.btnstyle{
+    text-decoration: none;
+    top: -11px;
+    position: relative;
+    color: #ED145B;
+}
+
+.btn:hover{
+	color: #ED145B;
+}
+
+#tituloSection{
+	font-size: 48px;
+}
+
+#tituloSectionEquipe{
+	font-size: 48px;
+    position: relative;
+     color: #909DA3;
+    top: 10px;
+    padding-left: 80px;
+}
+.tituloContato{
+	position: relative;
+	top: -60px;
+}
+
+.card-img {
+
+	width: 850px;
+    position: relative;
+    left: 287px;
+    top: -313px;
+
+ }
+
+
+.cardP1{
+
+	right: 480px;
+	transition: all 2s;
+
+}
+
+
+.cardP2{
+	right: 670px;
+	transition: all 1.6s;
+}
+
+.cardP3{
+right: 1000px;
+transition: all 1.5s;
+}
+
+.cardP4{
+	right: 1400px;
+	transition: all 1.3s;
+}
+
+
+
+ .cardPositionDuvida{
+ 	position: relative;
+ 	top: -4em;
+ }
+
+.c1{
+
+	position: relative;
+    position: relative;
+    top: 190px;
+    left: 70px;
+    background-color: #000;
+    color: #909DA3;
+    border: 2px solid #ED145B;
+    border-radius: .25rem;
+
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000;
+    background-clip: border-box;
+    border: 1px solid #ED145B;
+    border-radius: .25rem;
+}
+
+
+
+.card-img-top {
+    width: 80%;
+    margin: 17px;
+    /* padding-top: 10px; */
+    position: relative;
+    left: 11px;
+    /* border-top-left-radius: calc(12.25rem - 1px); */
+    /* border-top-right-radius: calc(12.25rem - 1px); */
+    border-radius: 185px;
+    background: hidden;
+}
+
+.card-img-top-package{
+
+width: 30%;
+margin:0 auto;
+top:10px;
+position: relative;
+
+}
+
+.packageDescription{
+	text-align: center;
+}
+
+.card-body > ul > li {
+
+	list-style: none;
+}
+
+.checks-package{
+	width: 20px;
+}
+
+.formulario{
+	float: right;
+    position: relative;
+    top: -24em;
+}
+
+
+input[class = "input-form"], input[type="text"], input[type="email"] , textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border: 1px solid #ED145B ;
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+	outline: none;
+  }
+
+
+
+.row > h1 {
+  color: #fff;
+  top: 35px;
+  font-size: 50px;
+  text-align: center;
+  left: 37%; }
+
+.row > p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  width: 80%;
+  left: 9%;
+  top: 160px; }
+
+.text-center .img-responsive {
+  margin: 0 auto; }
+
+  #contato{
+  	height: 200px;
+  }
+
+footer ul li{
+  	list-style: none;
+}
+
+footer a {
+  color: #ED145B;
+  font-size: 20px;
+}
+
+footer h1 {
+  font-size: 26px;
+  color: #fff;
+}
+
+footer > .row {
+  	left: 12%;
+    top: -250px;
+    width: 80%;
+    position: relative;
+}
+footer ul li a:link{
+text-decoration: none;
+
+}
+
+.fiapLogo{
+	width: 8%;
+    position: relative;
+    top: 5px;
+    left: 29px;
+}
+
+.col-md-4{
+	padding-right: 80px;
+}
+
+.endereco{
+	background-color:  #15191C;
+    width: 100%;
+        height: 70px;
+    bottom: 0;
+    position: relative;
+    border-top: 2px solid #ED145B;
+}
+
+.endereco p {
+	font-size: 14px;
+	float: right;
+	color: #909DA3;
+	position: relative;
+	top: 18px;
+	right: 38px;
+}
+
+.form-group{
+	    margin-top: 14px;
+}
+
+.corLabel{
+	color: #ED145B;
+}
+
+.btnC:hover{
+
+	color: #000;
+
+}
+.row{
+	position: relative;
+	top: 80px;
+}
+
+/* Configura os elementos "parallax" */
+.parallax{
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 0;
+	position: relative;
+}
+
+.parallax1{
+	width: 100%;
+	height: 60%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 0;
+	position: relative;
+}
+
+/* Configura um background para cada elemento */
+.div1 {
+	background-image: url(../img/capaPortugues1.jpg);
+}
+.div2 {
+	background-image: url(../img/chatBot.jpg);
+	background-repeat: no-repeat;
+}
+.div3 {
+	background-image: url(../img/equipe.jpg);
+	padding: 20px;
+}
+.div5 {
+	background-image: url(../img/equipe.jpg);
+}
+.div6 {
+	background-image: url(../img/footer3.jpg);
+	/*background-repeat: no-repeat;*/
+}
+
+
+/* Configura o texto lorem ipsum */
+.qualquer_coisa {
+	padding: 74px;
+	background-color: #15191C;
+	color: #909DA3;
+}
+
+
+
+.qualquer_coisa h2,
+.qualquer_coisa p{
+	padding: 20px;
+	margin: 1.3 0;
+}
+
+.qualquer_coisa_package{
+ 			padding-bottom: 11%;
+			background-color: #15191C;
+			color: #909DA3;
+}
+
+.col-sm-5{
+	left: 10em;
+}
+
+.card-package{
+	padding: 20px;
+}

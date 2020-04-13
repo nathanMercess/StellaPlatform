@@ -1,0 +1,123 @@
+/*TEMPLATE ALUNO*/
+* {
+	padding: 0;
+}
+
+.clear-fix {
+	clear:both;
+	content:" ";
+	display:table;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+/*header {
+	height: 100%;
+	background: url("../../img/fundo45.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}*/
+.chamadaCurso {
+	position: absolute;
+	top: 30%;
+	padding: 17px;
+	width: 48%;
+	color: #fff;
+	border: 2px solid;
+}
+
+nav {
+}
+
+main {
+}
+
+.menu {
+	z-index: 99;
+	width: 100%;
+}
+
+.menu ul {
+	background-color: rgba(0,0,0,0.8);
+	height: 50%;
+	position: relative;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline;
+	padding:10px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+	font-size: 17px;
+	float: right;
+}
+
+.iconLogo{
+	position: absolute;
+    left: 0;
+    top: -26px;
+    transform: scale(0.5);
+    width: 114px;
+}
+
+.tada:hover {
+  animation-duration: 1s;
+  animation-delay: 1s;
+  color: #ED145B;
+  animation-iteration-count: infinite;
+}
+
+.dropdown-menu.show {
+    background: rgba(0,0,0,0.8) !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+   color:#ED145B;
+   transition: 0.2s;
+}
+
+/*FIM TEMPLATE ALUNO*/
+
+/*INDEX*/
+.tituloCurso {
+	width: 47%;
+	background-color: #000;
+	color: #fff;
+	float: right;
+	height: 21em;
+	position: relative;
+	top: 28%;
+}
+
+.tituloConteudo {
+	    text-align: center;
+	    padding: 8%;
+}
+
+.rosa {
+	color: rgb(237,20,91);
+}
+
+/*FIM INDEX*/
+
+/* AVALIACAO */
+.questao {
+	border:1px solid  rgb(237,20,91);
+	padding:25px;
+}
+
+.pergunta {
+	margin-bottom:15px;
+}
+
+.resposta {
+	display:block;
+}
+

@@ -1,0 +1,4 @@
+<Resource name="jdbc/StellaDB" auth="Container" type="javax.sql.DataSource"
+           maxActive="1" maxIdle="30" maxWait="10000" maxWaitMillis="-1"
+           username="RM80387" password="091296" driverClassName="oracle.jdbc.driver.OracleDriver"
+           url="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl"/>

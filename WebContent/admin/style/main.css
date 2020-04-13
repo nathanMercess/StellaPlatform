@@ -1,0 +1,177 @@
+/*TEMPLATE ADMIN*/
+.clear-fix {
+	display:table;
+	clear:both;	
+	content:" ";
+}
+
+.collapsed {
+	margin-left:-320px;
+}
+
+.expanded {
+	width:100%;
+}
+
+a:link {
+  text-decoration: none;
+  color:inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color:inherit;
+}
+
+a:active {
+  text-decoration: none;
+}
+nav {
+	width:320px;
+	background-color: #15191C;
+	height:100vh;
+	float:left;
+	position:fixed;
+	transition: margin-left 1s ease;
+	border-right: 1px solid rgb(237,20,91);
+}
+
+nav ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow-y:auto;
+	height:calc(100vh - 114px);
+}
+
+nav ul li {
+	padding:15px;
+	font-size:16px;
+	color:white;
+}
+
+nav ul li i {
+	margin-right:5px;
+}
+
+nav ul li a:hover {
+	color:rgb(255,198,4);
+}
+
+nav ul li:hover {
+	
+}
+
+nav ul li.separator::before {
+	content: " ";
+	display:block;
+	width:95%;
+	margin-top:15px;
+	margin-bottom:5px;
+	height:1px;
+	background-color:rgb(237,20,91);
+}
+
+.top-nav-wrapper {
+	height:120px;
+	background-color: black;
+}
+
+.logo-container {
+	width:114px;
+	float:left;
+	padding:25px;
+}
+
+.logo-container img {
+	width:64px;
+}
+
+.menu-toggle-container {
+	float:left;
+	color: rgb(237,20,91);
+	cursor:pointer;
+	margin-right:25px;
+}
+
+.menu-toggle-container:hover {
+	transition: color 1.5s ease-in-out;
+	color:white;
+}
+
+.menu-toggle-container i:hover {
+	color:white;
+	cusor:pointer;
+}
+
+main {
+	width:calc(100% - 320px);	
+	height:100vh;
+	float:right;
+	transition: width 1s ease;
+}
+
+main .full {
+	width:100%;
+}
+
+header {
+	height:120px;
+	width:100%;
+	background-color: black;
+	padding:30px;
+	position:fixed;
+	z-index:999;
+}
+
+header span {
+	color:white;
+	font-size:30px;
+}
+
+.content-section {
+	margin-top:120px;
+	padding: 10px;
+}
+/*FIM TEMPLATE ADMIN*/
+
+/*INDEX ADMIN*/
+
+/*FIM INDEX ADMIN*/
+
+/*VER DISCIPLINAS*/
+td {
+	font-size: 18px;
+}
+
+td i {
+	padding:5px;
+}
+
+td i:hover {
+	background-color:grey;
+	color:white;
+	cursor:pointer;
+}
+/*FIM VER DISCIPLINAS*/
+
+/* Nova avaliacao*/
+#questoes {
+	max-height: 600px;
+	padding:5px;
+	overflow-y:auto;
+	margin-bottom:10px;
+}
+
+#questoes>div{
+	margin-bottom: 10px;
+	border:1px solid;
+	padding:15px;
+}
+
+

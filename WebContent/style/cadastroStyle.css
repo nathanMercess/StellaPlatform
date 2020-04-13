@@ -1,0 +1,107 @@
+body{
+  background-color: #232527;
+}
+
+.menu{
+	width: 100%;
+}
+
+.menu ul {
+	background-color: rgba(0,0,0,0.8);
+	height: 50%;
+	position: relative;
+}
+.menu ul li{
+	list-style: none;
+	display: inline;
+	padding:10px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+	font-size: 17px;
+	float: right;
+}
+
+.iconLogo{
+	position: absolute;
+    left: 0;
+    top: -26px;
+    transform: scale(0.5);
+    width: 114px;
+}
+
+.tada:hover{
+  animation-duration: 1s;
+  animation-delay: 1s;
+  color: #ED145B;
+  animation-iteration-count: infinite;
+}
+
+.dropdown-menu.show {
+    background: rgba(0,0,0,0.8) !important;
+}
+
+
+.dropdown-item:focus, .dropdown-item:hover {
+   color:#ED145B;
+   transition: 0.2s;
+}
+
+
+.formCadastro{
+  width: 46em;
+  position: relative;
+  margin: 0 auto;
+  top: 4em;
+
+}
+
+.tituloCadastro{
+	text-align: center;
+	color: #fff;
+}
+
+.btnPadrao{
+	border: 1px solid #000;
+	background: #ED145B;
+	padding:10px;
+	border-radius:8px;
+	color: #000;
+	text-shadow: rgba(0, 0, 0, 0.75) 4px 0px 30px;
+	float:right;
+}
+
+.btnPadrao:hover{
+	background-color:  #ED145B;
+	color: white;
+	transition: 0.5s;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 0.75) 4px 0px 10px;
+	box-shadow: 0 0 20px #000;
+}
+
+.checkbox-inline{
+	color:#fff;
+}
+
+input[class = "input-form"], input[type="text"], input[type="email"] , input[type="password"], input[type="date"], textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	border: 1px solid #ED145B ;
+	background: #232527;
+	color: #fff;
+	border-radius: 5px;
+	outline: none;
+  }
+
+.corLabel{
+	color: #ED145B;
+}
+
+input:hover{
+	border-color:yellow;
+}

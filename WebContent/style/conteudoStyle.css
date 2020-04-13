@@ -1,0 +1,44 @@
+.capitulo1 {
+	  padding-top: 8em;
+}
+
+.capitulo1:after {
+	content:" ";
+	height:80px;
+	display:block;
+}
+
+.diagonal {
+	width: 59%;
+	height: 39vh;
+	background: #000;
+	margin-left: -421px;
+	-webkit-transform: skew(-50deg);
+	-moz-transform: skew(-50deg);
+	transform: skew(67deg);
+	z-index: -99;
+	position:relative;
+	    bottom: -39px;
+}
+
+.next {
+	color: #fff;
+    font-size: 30px;
+    position: absolute;
+    z-index: 99;
+    padding: 18px;
+    bottom: 5%;
+}
+
+.next:link {
+	text-decoration: none;
+}
+
+.next:hover {
+	color: #ED145B !important;
+	transition: 1s;
+}
+
+.tituloConteudo{
+	text-align: center;
+}
